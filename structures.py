@@ -1,4 +1,3 @@
-"""
 print("*" * 20)
 print("Hello ;)")
 ###
@@ -14,4 +13,20 @@ elif num2 > num1:
 else:
     print(" The numbers are the same! ")
 ###
-"""
+print("Type a number:")
+num = int(input())
+if num >= 1:
+    square = num ** 0.5
+    print(f"The square root of {num} is {square}")
+elif num <= 0:
+    print("INVALID NUMBER!")
+###
+print("Type a number:")
+num = int(input())
+if num >= 1:
+    square = num ** 0.5
+    squared = num ** 2
+    print(f"The square root of {num} is {square}")
+    print(f"{num} squared is {squared}")
+elif num <= 0:
+    print("INVALID NUMBER!")
